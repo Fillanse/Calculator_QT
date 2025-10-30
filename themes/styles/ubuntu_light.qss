@@ -1,0 +1,57 @@
+QMainWindow {
+    background-color: #F7F7F7;
+    border-radius: 6px;
+}
+
+QLineEdit#displayHistory, QLineEdit#displayResult {
+    background: #FFFFFF;
+    border: 1px solid #D1D1D1;
+    color: #333333;
+    padding: 12px 16px;
+    font-family: "Ubuntu";
+    font-weight: 400;
+    border-radius: 4px;
+    text-align: right;
+}
+
+QLineEdit#displayHistory { font-size: 14px; color: #666666; }
+QLineEdit#displayResult { font-size: 32px; font-weight: 500; }
+
+QPushButton#btnMC, QPushButton#btnMR, QPushButton#btnMPlus, QPushButton#btnMMinus, QPushButton#btnMS, QPushButton#btnM {
+    background: transparent;
+    border: none;
+    color: #666666;
+    font-size: 12px;
+    padding: 4px;
+}
+
+QPushButton {
+    background-color: #FFFFFF;
+    border: 1px solid #CACACA;
+    border-radius: 4px;
+    font-family: "Ubuntu";
+    font-size: 18px;
+    font-weight: 500;
+    min-height: 50px;
+    color: #333333;
+}
+
+QPushButton:hover { background-color: #F5F5F5; }
+QPushButton:pressed { background-color: #E5E5E5; }
+
+QPushButton#btnPlus, QPushButton#btnMinus, QPushButton#btnMultiply, QPushButton#btnDivide {
+    background-color: #FDF0E8;
+    color: #E95420;
+    font-weight: 600;
+}
+
+QPushButton#btnEqual {
+    background-color: #E95420;
+    color: white;
+    border: none;
+    font-weight: 600;
+}
+
+QPushButton#btnEqual:hover { background-color: #F56A3A; }
+QPushButton#btnEqual:pressed { background-color: #D43F1A; }
+
