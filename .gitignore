@@ -74,7 +74,7 @@ CMakeLists.txt.user*
 *.exe
 
 # Directories with generated files
-.vscode/
+/.vscode*/
 .moc/
 .obj/
 .pch/
